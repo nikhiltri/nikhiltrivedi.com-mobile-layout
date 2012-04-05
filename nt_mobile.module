@@ -1,0 +1,8 @@
+<?php
+function nt_mobile_init() {
+  drupal_add_css(drupal_get_path('module', 'nt_mobile') .'/mobile.css');    
+}
+
+function nt_mobile_preprocess_page(&$vars) {
+  $vars['body_classes'] .= t(' mobile');
+}

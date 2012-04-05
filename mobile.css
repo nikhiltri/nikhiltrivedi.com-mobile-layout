@@ -1,0 +1,152 @@
+@charset "UTF-8";
+/* CSS Document */
+@media screen and (max-device-width: 540px) {
+body.mobile * 
+{
+  float: none;
+}
+
+body.mobile p,
+body.mobile div,
+body.mobile span,
+body.mobile .node-type-tweet .node-inner, 
+body.mobile .node-type-instagram-photo .node-inner
+{
+  font-size:large;
+  line-height:150%;
+}
+
+body.mobile h2,
+body.mobile h2.title
+{
+  font-size:3em;
+}
+
+body.mobile img
+{
+  max-width:100%;
+}
+
+body.mobile .node-type-instagram-photo .content img
+{
+  width:100%;
+}
+
+body.mobile
+{
+  border-top: 0.6em solid #991B1E;
+}
+
+body.mobile #page
+{
+  border-top: 0.2em solid #FFCD32;
+}
+
+body.mobile #header
+{
+  background: #FF3C26;
+  border-bottom: 0.3em solid #FFCD32;
+}
+
+body.mobile #sidebar-right, 
+body.mobile #mission,
+.feed-icons 
+{
+  display: none;
+}
+
+body.mobile #logo{
+  float: none;
+}
+
+body.mobile #header,
+body.mobile #header-inner,
+body.mobile #logo-title,
+body.mobile #logo,
+body.mobile #logo a,
+body.mobile .sidebar-right #content-inner,
+body.mobile #content-inner,
+body.mobile #primary,
+body.mobile #navbar li,
+body.mobile .breadcrumb
+{
+  float:none;
+  margin:0px;
+  padding:0px;
+}
+
+body.mobile #header,
+body.mobile #header-inner,
+body.mobile #logo-title,
+body.mobile #logo,
+body.mobile #logo a
+{
+  line-height:0px;
+}
+
+body.mobile,
+body.mobile #logo-image,
+body.mobile #content
+{
+  float:none;
+  width:100%;
+  margin:0px;
+  padding:0px;
+}
+
+body.mobile #content,
+body.mobile #primary,
+body.mobile .breadcrumb
+{
+  margin: 1em;
+  width:98%;
+}
+
+body.mobile .float-left
+{
+  float: left;
+  margin-right: 0.6em;
+}
+
+body.mobile .node-inner .icon
+{
+  vertical-align:middle;
+  margin-top: 0.4em;
+}
+
+/* MENUS TABS */
+body.mobile #navbar 
+{
+  height: auto;
+}
+
+body.mobile #navbar li 
+{
+  float: none;
+  display: block;
+  margin: 1em 0;
+}
+
+body.mobile #primary ul.links li .tab,
+body.mobile #primary ul.links li a
+{
+  background: none;
+}
+
+body.mobile #navbar li
+{
+  margin: 1.5em 0;
+  padding: 1em;
+  background: #FF3C26;
+  border: 0.3em solid #FFCD32;
+  -moz-border-radius: 1em;
+  -webkit-border-radius: 1em;
+  -khtml-border-radius: 1em;
+  border-radius: 1em;
+}
+
+body.mobile #primary ul.links li a span
+{
+  font-size: x-large;
+}
+}
